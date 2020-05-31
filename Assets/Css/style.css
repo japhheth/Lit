@@ -31,6 +31,7 @@ body{
 }
 .hero-content > h1{
    font-size: 50px;
+   font-weight: bolder;
 }
 .hero-content{
   padding-top: 190px;
