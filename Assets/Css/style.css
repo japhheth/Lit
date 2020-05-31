@@ -137,8 +137,8 @@ body{
 }
 .activate-btn:hover{
    background-color: #FF6700;
+   border: 2px solid #FF6700;
    color: #fff;
-   border: 2px solid #fff;
    transition: .5s;
 }
 
