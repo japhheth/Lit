@@ -339,7 +339,7 @@ body{
       margin-top: 20px;
    }
    .info-div{
-      top: 0 !important;
+      top: -64px !important;
    }
    .plan{
       position: relative;
