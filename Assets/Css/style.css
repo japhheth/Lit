@@ -333,7 +333,7 @@ body{
       position: relative;
       text-align: center;
       top: 0;
-      padding: 50px;
+      padding-top: 50px;
    }
    .hero-content > h1{
       font-size: 32px;
