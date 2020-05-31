@@ -178,6 +178,7 @@ body{
 }
 .blue-col{
    color: #0090E9;
+   font-weight: bolder;
 }
 .svg-img{
    height: 25px;
@@ -225,8 +226,9 @@ body{
 
 
 
+/* MEDIA QUERRIES  */
 
-
+/* Media Query for Mobile devices between 320px and 767px */
 
 @media (min-width: 320px) and (max-width: 767px){
    .wrapper{
@@ -309,6 +311,7 @@ body{
 
 }
 
+/* Media Querry for tablets and small screen laptops between 768px to 1024px */
 
 @media (min-width: 768px) and (max-width: 1024px){
    .info-div{

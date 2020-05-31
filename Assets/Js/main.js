@@ -1,4 +1,5 @@
 
+//Loader function
 
 document.body.classList.add("no-transactions");
 setTimeout(function(){
