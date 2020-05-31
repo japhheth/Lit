@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
       <!--Font Awesome-->
     <link rel="stylesheet" href="Assets/Css/fontawesome-free-5.11.2-web/css/all.css">
 
@@ -12,13 +13,15 @@
     <link rel="stylesheet" href="Assets/Css/bootstrap.min.css">
     <!-- Css -->
     <link rel="stylesheet" href="Assets/Css/style.css">
-    <script src="https://cdn.jsdelivr.net/npm/vivid-icons@1.0.10" type="text/javascript"></script>
 
-    <title>Document</title>
+    <!-- FavIcon -->
+    <link rel="icon" href="Assets/Img/Lit_logo_C_250px_PNG.png">
+    <title>Lit</title>
 </head>
 <body>
     <div id="preloader"></div>
     <header class="header">
+      <!-- Navbar begin -->
       <nav id="myNav"  class="navbar navbar-expand-lg navbar-light">
         <div class="container">
          <img class="img-fluid logo" src="Assets/Img/Lit_logo_C_250px_PNG.png" alt="logo">
@@ -27,32 +30,35 @@
            <span class="navbar-toggler-icon"></span>
          </button>
          <div class="collapse navbar-collapse nav-content nav-div" id="navbarSupportedContent">        
-              <img class="pr-3" src="Assets/Img/bell-ring.svg" alt="bell">
+              <img class="pr-4" src="Assets/Img/bell-ring.svg" alt="bell">
               <span class="grey-col pr-1">status: online</span>
               <span class="span"></span>
               <span class="user-span ml-3"><i class="far fa-user-circle icon"></i></span>
-              <img  class="ml-3 img-fluid" src="Assets/Img/ellipsis-v.svg" alt="eclipse">
+              <img  class="ml-3 img-fluid dot" src="Assets/Img/ellipsis-v.svg" alt="eclipse">
          </div>
        </div>
      </nav>
+     <!-- Navbar end -->
     </header>
+    <!-- Landing page begin  -->
     <div class="wrapper">
       <img class="img-fluid landing-img" src="Assets/Img/activate_header.jpg" alt="landing">
       <div class="container">
         <div class="hero-content">
-          <h1>Our pricing <br/>plan for everyone</h1>
+          <h1>Our pricing <br class="br">plan for everyone</h1>
           <p class="grey-col">Packages are for individual only</p>
         </div>
       </div>
     </div>
    </div>
+    <!-- Landing page end  -->
    <div class="second-wrapper">
      <div class="container info-div">
         <div class="row">
-          <div class="col-md-3">
-               <h5 class="grey-col plan">Plan <br>features</h5>
+          <div class="col-md-3 col-12">
+               <h5 class="grey-col plan">Plan <br class="br">features</h5>
           </div>
-          <div class="col-md-3 text-center inner-wrapper">
+          <div class="col-md-3 col-12 text-center inner-wrapper">
               <h2 class="green-col">BRONZE</h2>
               <div class="amt text-center pt-5">
                 <h3 class="grey-col"><span>&#8358;</span> 500</h3>
@@ -62,17 +68,17 @@
                 <button class="btn button">Activate</button>
               </div>
           </div>
-          <div class="col-md-3 text-center silver-bag">
+          <div class="col-md-3 col-12 text-center silver-bag">
             <h2 class="white-col silver-para">SILVER</h2>
             <div class="amt text-center pt-5">
               <h3 class="white-col"><span>&#8358;</span>2,000</h3>
               <p class="white-col para">Per month</p>
             </div>
             <div class="pt-5">
-              <button class="btn button">Activate</button>
+              <button class="btn activate-btn">Activate</button>
             </div>
         </div>
-        <div class="col-md-3 text-center inner-wrapper">
+        <div class="col-md-3 col-12 text-center inner-wrapper">
           <h2 class="purple-col">GOLD</h2>
           <div class="amt text-center pt-5">
             <h3 class="grey-col"><span>&#8358;</span> 2,500</h3>
@@ -83,6 +89,276 @@
           </div>
       </div>
         </div>
+        <div class="row grey-row">
+          <div class="col-3 col-md-3 text-hero">
+            <p>Loan</p>
+          </div>
+          <div class="col-3 col-md-3 text-center text-para">
+            <p class="green-col textAmount">50k - 150k Naira</p>
+          </div>
+          <div class="col-3 col-md-3 text-center text-para">
+            <p class="blue-col textAmount">50k - 2M Naira</p>
+          </div>
+          <div class="col-3 col-md-3 text-center text-para">
+            <p class="purple-col textAmount">50k - 4M Naira</p>
+          </div>
+        </div>
+        <div class="row mt-4 white-bag">
+          <div class="col-3 col-md-3 text-hero">
+            <p>Investment</p>
+          </div>
+          <div class="col-3 col-md-3 text-center">
+            <img class="img-fluid svg-img" src="Assets/Img/check.svg" alt="svg">
+          </div>
+          <div class="col-3 col-md-3 text-center">
+            <img class="img-fluid svg-img" src="Assets/Img/check-blue.svg" alt="svg">
+          </div>
+          <div class="col-3 col-md-3 text-center">
+            <img class="img-fluid svg-img" src="Assets/Img/check-purple.svg" alt="svg">
+          </div>
+        </div>
+        <div class="row mt-4 grey-row">
+          <div class="col-3 col-md-3 text-hero">
+            <p>Smart Travel Savings</p>
+          </div>
+          <div class="col-3 col-md-3 text-center">
+            <img class="img-fluid svg-img" src="Assets/Img/check.svg" alt="svg">
+          </div>
+          <div class="col-3 col-md-3 text-center">
+            <img class="img-fluid svg-img" src="Assets/Img/check-blue.svg" alt="svg">
+          </div>
+          <div class="col-3 col-md-3 text-center">
+            <img class="img-fluid svg-img" src="Assets/Img/check-purple.svg" alt="svg">
+          </div>
+        </div>
+        <div class="row mt-4 white-bag">
+          <div class="col-3 col-md-3 text-hero">
+            <p>Security</p>
+          </div>
+          <div class="col-3 col-md-3 text-center">
+            <img class="img-fluid svg-img" src="Assets/Img/check.svg" alt="svg">
+          </div>
+          <div class="col-3 col-md-3 text-center">
+            <img class="img-fluid svg-img" src="Assets/Img/check-blue.svg" alt="svg">
+          </div>
+          <div class="col-3 col-md-3 text-center">
+            <img class="img-fluid svg-img" src="Assets/Img/check-purple.svg" alt="svg">
+          </div>
+        </div>
+        <div class="row mt-4 grey-row">
+          <div class="col-3 col-md-3 text-hero">
+            <p>Bank Statement</p>
+          </div>
+          <div class="col-3 col-md-3 text-center text-para">
+            <p class="green-col textAmount">200k - 400k Naira</p>
+          </div>
+          <div class="col-3 col-md-3 text-center text-para">
+            <p class="blue-col textAmount">200k - 1M Naira</p>
+          </div>
+          <div class="col-3 col-md-3 text-center text-para">
+            <p class="purple-col textAmount">200k -1M Naira</p>
+          </div>
+        </div>
+        <div class="row mt-4 white-bag">
+          <div class="col-3 col-md-3 text-hero">
+            <p>Visa</p>
+          </div>
+          <div class="col-3 col-md-3 text-center">
+            <img class="img-fluid svg-img" src="Assets/Img/check.svg" alt="svg">
+          </div>
+          <div class="col-3 col-md-3 text-center">
+            <img class="img-fluid svg-img" src="Assets/Img/check-blue.svg" alt="svg">
+          </div>
+          <div class="col-3 col-md-3 text-center">
+            <img class="img-fluid svg-img" src="Assets/Img/check-purple.svg" alt="svg">
+          </div>
+        </div>
+        <div class="row mt-4 grey-row">
+          <div class="col-3 col-md-3 text-hero">
+            <p>Ticket</p>
+          </div>
+          <div class="col-3 col-md-3 text-center">
+            <img class="img-fluid svg-img" src="Assets/Img/check.svg" alt="svg">
+          </div>
+          <div class="col-3 col-md-3 text-center">
+            <img class="img-fluid svg-img" src="Assets/Img/check-blue.svg" alt="svg">
+          </div>
+          <div class="col-3 col-md-3 text-center">
+            <img class="img-fluid svg-img" src="Assets/Img/check-purple.svg" alt="svg">
+          </div>
+        </div>
+        <div class="row mt-4 white-bag">
+          <div class="col-3 col-md-3 text-hero">
+            <p>Visa</p>
+          </div>
+          <div class="col-3 col-md-3"></div>
+          <div class="col-3 col-md-3 text-center">
+            <img class="img-fluid svg-img" src="Assets/Img/check-blue.svg" alt="svg">
+          </div>
+          <div class="col-3 col-md-3 text-center">
+            <img class="img-fluid svg-img" src="Assets/Img/check-purple.svg" alt="svg">
+          </div>
+        </div>
+        <div class="row grey-row mt-4">
+          <div class="col-3 col-md-3 text-hero">
+            <p>Eight Free Country Destination</p>
+          </div>
+          <div class="col-3 col-md-3 text-center text-para">
+            <p class="green-col">Just 1</p>
+          </div>
+          <div class="col-3 col-md-3 text-center text-para">
+            <p class="blue-col">Just 3</p>
+          </div>
+          <div class="col-3 col-md-3 text-center">
+            <img class="img-fluid svg-img" src="Assets/Img/check-purple.svg" alt="svg">
+          </div>
+        </div>
+        <div class="row mt-4 white-bag">
+          <div class="col-3 col-md-3 text-hero">
+            <p>Tour Package</p>
+          </div>
+          <div class="col-3 col-md-3 text-center">
+            <img class="img-fluid svg-img" src="Assets/Img/check.svg" alt="svg">
+          </div>
+          <div class="col-3 col-md-3 text-center">
+            <img class="img-fluid svg-img" src="Assets/Img/check-blue.svg" alt="svg">
+          </div>
+          <div class="col-3 col-md-3 text-center">
+            <img class="img-fluid svg-img" src="Assets/Img/check-purple.svg" alt="svg">
+          </div>
+        </div>
+        <div class="row mt-4 grey-row">
+          <div class="col-3 col-md-3 text-hero">
+            <p>Hotel Reservation</p>
+          </div>
+          <div class="col-3 col-md-3 text-center">
+            <img class="img-fluid svg-img" src="Assets/Img/check.svg" alt="svg">
+          </div>
+          <div class="col-3 col-md-3 text-center">
+            <img class="img-fluid svg-img" src="Assets/Img/check-blue.svg" alt="svg">
+          </div>
+          <div class="col-3 col-md-3 text-center">
+            <img class="img-fluid svg-img" src="Assets/Img/check-purple.svg" alt="svg">
+          </div>
+        </div>
+        <div class="row mt-4 white-bag">
+          <div class="col-3 col-md-3 text-hero">
+            <p>24/7 Customer Success Expert</p>
+          </div>
+          <div class="col-3 col-md-3"></div>
+          <div class="col-3 col-md-3"></div>
+          <div class="col-3 col-md-3 text-center">
+            <img class="img-fluid svg-img" src="Assets/Img/check-purple.svg" alt="svg">
+          </div>
+        </div>
+        <div class="row mt-4 grey-row">
+          <div class="col-3 col-md-3 text-hero">
+            <p>Travel shows</p>
+          </div>
+          <div class="col-3 col-md-3 text-center">
+            <img class="img-fluid svg-img" src="Assets/Img/check.svg" alt="svg">
+          </div>
+          <div class="col-3 col-md-3 text-center">
+            <img class="img-fluid svg-img" src="Assets/Img/check-blue.svg" alt="svg">
+          </div>
+          <div class="col-3 col-md-3 text-center">
+            <img class="img-fluid svg-img" src="Assets/Img/check-purple.svg" alt="svg">
+          </div>
+        </div>
+        <div class="row mt-4 white-bag">
+          <div class="col-3 col-md-3 text-hero">
+            <p>Event</p>
+          </div>
+          <div class="col-3 col-md-3"></div>
+          <div class="col-3 col-md-3 text-center">
+            <img class="img-fluid svg-img" src="Assets/Img/check-blue.svg" alt="svg">
+          </div>
+          <div class="col-3 col-md-3 text-center">
+            <img class="img-fluid svg-img" src="Assets/Img/check-purple.svg" alt="svg">
+          </div>
+        </div>
+        <div class="row mt-4 grey-row">
+          <div class="col-3 col-md-3 text-hero">
+            <p>Games</p>
+          </div>
+          <div class="col-3 col-md-3"></div>
+          <div class="col-3 col-md-3"></div>
+          <div class="col-3 col-md-3 text-center">
+            <img class="img-fluid svg-img" src="Assets/Img/check-purple.svg" alt="svg">
+          </div>
+        </div>
+        <div class="row mt-4 white-bag">
+          <div class="col-3 col-md-3 text-hero">
+            <p>Gold Investor</p>
+          </div>
+          <div class="col-3 col-md-3"></div>
+          <div class="col-3 col-md-3 text-center text-para">
+            <p class="blue-col">Silver Investor</p>
+          </div>
+          <div class="col-3 col-md-3 text-center">
+            <img class="img-fluid svg-img" src="Assets/Img/check-purple.svg" alt="svg">
+          </div>
+        </div>
+        <div class="row mt-4 grey-row">
+          <div class="col-3 col-md-3 text-hero">
+            <p>Start Up</p>
+          </div>
+          <div class="col-3 col-md-3"></div>
+          <div class="col-3 col-md-3 text-center">
+            <img class="img-fluid svg-img" src="Assets/Img/check-blue.svg" alt="svg">
+          </div>
+          <div class="col-3 col-md-3 text-center">
+            <img class="img-fluid svg-img" src="Assets/Img/check-purple.svg" alt="svg">
+          </div>
+        </div>
+        <div class="row mt-4 white-bag">
+          <div class="col-3 col-md-3 text-hero">
+            <p>Give a Meal</p>
+          </div>
+          <div class="col-3 col-md-3 text-center">
+            <img class="img-fluid svg-img" src="Assets/Img/check.svg" alt="svg">
+          </div>
+          <div class="col-3 col-md-3 text-center">
+            <img class="img-fluid svg-img" src="Assets/Img/check-blue.svg" alt="svg">
+          </div>
+          <div class="col-3 col-md-3 text-center">
+            <img class="img-fluid svg-img" src="Assets/Img/check-purple.svg" alt="svg">
+          </div>
+        </div>
+        <div class="row mt-4 grey-row">
+          <div class="col-3 col-md-3 text-hero">
+            <p>Cargo</p>
+          </div>
+          <div class="col-3 col-md-3 text-center">
+            <img class="img-fluid svg-img" src="Assets/Img/check.svg" alt="svg">
+          </div>
+          <div class="col-3 col-md-3 text-center">
+            <img class="img-fluid svg-img" src="Assets/Img/check-blue.svg" alt="svg">
+          </div>
+          <div class="col-3 col-md-3 text-center">
+            <img class="img-fluid svg-img" src="Assets/Img/check-purple.svg" alt="svg">
+          </div>
+        </div>
+     </div>
+   </div>
+   <div class="footer">
+     <div class="container footer-wrapper">
+       <div class="first-footer-content">
+          <img class="img-fluid logo" src="Assets/Img/Lit_logo_C_250px_PNG.png" alt="logo">
+       </div>
+       <div class="second-footer-content">
+         <a href="#" class="link">Terms & Condition</a>
+         <a href="#" class="link">Career</a>
+         <a href="#" class="link">Privacy Policy</a>
+         <a href="#" class="last-footer-link">Leapsail Copyright 2020</a>
+       </div>
+       <div class="last-footer-content">
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-linkedin"></i>
+
+       </div>
      </div>
    </div>
     
